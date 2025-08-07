@@ -207,7 +207,15 @@ const ScrollingGroup: FC = () => {
   );
 };
 
-function ArtworkPlane({ src, position, size = [4, 3] as [number, number] }) {
+function ArtworkPlane({
+  src,
+  position,
+  size = [4, 3] as [number, number],
+}: {
+  src: string;
+  position: [number, number, number];
+  size?: [number, number];
+}) {
   const texture = useLoader(TextureLoader, src);
   return (
     <mesh position={position}>
