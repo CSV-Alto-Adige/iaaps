@@ -25,7 +25,7 @@ export default function FiveXMille() {
               asChild
               className="mt-10 mb-6 bg-accent border border-accent text-primary text-lg py-8 px-5 rounded-full cursor-pointer hover:bg-transparent hover:text-white hover:border-white"
             >
-              <Link href="/sostienici">Diventa socio</Link>
+              <Link href="/area-soci">Diventa socio</Link>
             </Button>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function FiveXMille() {
               asChild
               className="mt-10 mb-6 bg-accent border border-accent text-primary text-lg py-8 px-5 rounded-full cursor-pointer hover:bg-transparent hover:text-white hover:border-white"
             >
-              <Link href="/sostienici">Area riservata</Link>
+              <Link href="/area-soci">Area riservata</Link>
             </Button>
           </div>
         </div>

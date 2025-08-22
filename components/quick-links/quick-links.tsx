@@ -5,13 +5,13 @@ const posts = [
   {
     id: 1,
     title: "",
-    href: "#",
+    href: "eventi",
     imageUrl: "/images/iaaps-eventi.jpg",
   },
   {
     id: 2,
     title: "I nostri eventi",
-    href: "#",
+    href: "eventi",
     backgroundColor: "bg-white",
     textColor: "text-gray-900",
     description: "Partecipa ai nostri eventi, conferenze e incontri.",
@@ -20,13 +20,13 @@ const posts = [
   {
     id: 3,
     title: "",
-    href: "#",
+    href: "biblioteca",
     imageUrl: "/images/iaaps-biblioteca.jpg",
   },
   {
     id: 4,
     title: "Biblioteca Graziella Margherita",
-    href: "#",
+    href: "biblioteca",
     backgroundColor: "bg-primary",
     description:
       "Sfoglia la nostra biblioteca dedicata alla psicologia e all'arte.",
@@ -35,7 +35,7 @@ const posts = [
   {
     id: 5,
     title: "Galleria Virtuale",
-    href: "#",
+    href: "galleria-virtuale",
     backgroundColor: "bg-primary",
     description: "Esplora la nostra galleria virtuale di opere d'arte.",
     cta: "Scopri di più",
@@ -43,13 +43,13 @@ const posts = [
   {
     id: 6,
     title: "",
-    href: "#",
+    href: "galleria-virtuale",
     imageUrl: "/images/iaaps-galleria.jpg",
   },
   {
     id: 7,
     title: "Attualità e Approfondimenti",
-    href: "#",
+    href: "news",
     backgroundColor: "bg-white",
     textColor: "text-gray-900",
     description: "Articoli, ricerche e novità utili.",
@@ -58,7 +58,7 @@ const posts = [
   {
     id: 8,
     title: "",
-    href: "#",
+    href: "news",
     imageUrl: "/images/website.webp",
   },
 ];
